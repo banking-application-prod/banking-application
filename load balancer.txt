@@ -1,0 +1,38 @@
+load balancing
+Application load balancing
+vpc setup
+name:vpc-1
+10.50.0.0/16
+tenancy:default
+create vpc
+subnet create subnet
+name:subnet11
+ap-south1a
+10.50.0.0/22
+add new rule 
+name:subnet2
+ap-south1b
+10.50.4.0/22
+add new rule
+name:subnet3
+10.50.8.0/22
+add new rule
+name:subnet4
+10.50.12.0/22
+create subnet
+internet gateway
+create internet gateway
+name:internet gateway
+create internet gateway
+select an internet gateway name
+go to attach vpc option
+available to vpcs:vpc-1
+attach vpc
+go to route table
+create route table
+name:RT1
+vpc:vpc1
+create route table
+go to routes option
+edit routes
+add routes 
