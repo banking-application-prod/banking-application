@@ -1,0 +1,22 @@
+pregnancy women=  stomach-baby 
+                  container-image
+what is image=application(amazon)
+golisoda inside goli(small size)
+image(small) existing in container
+container=image1+image2+image3+image4
+container=application1(flipkart)+application2(amazon)+application3(zepto)+application4(bigbasket)+application5(meesho)
+64GB-2mg(image)or(application)
+1image+image2=container
+image=appliction (either small or large application)
+container=image+dependencies
+
+
+
+
+100lines code -small application or image  4GB IOPS(SPEED)low speed
+10000 line of code -large application or image 64GB(SPEED) very speed
+
+physical machine cpu(4gb ram)
+virtual machine     options ec2 instance 8 or 16gb or 30 gb
+  small application 100 lines dependency 4gb,1000iops
+  large application 1000000 lines dependencies 64GB(1),10000 iops(2)
